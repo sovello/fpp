@@ -17,13 +17,45 @@ all uppercase letters changed to lowercase and all lowercase letters changed to 
 
     _Hint :  Look at the API documentation for the  Character  class to see which methods you can use._
 
-4. On page 99, there is table 3-8.  We will only use the top three rows.
+4. In `resources.zip`, there is table 3-8.  We will only use the top three rows.
    Create a two dimensional table with  3  rows and  6  columns.
    Put the data from the top 3 rows of table 3-8 into your table.
 
     * Print out the average of each row.
     * Print out the average of each column.
-    
+
+5. Write a program that asks the user to enter a String. The program then writes to console
+all substrings of this String . (By "substring", we mean any sequence of characters that
+occur consecutively and in the same order in the given String . Therefore, "erg" is a
+substring of "energy", but "gre" and "eng" are not. Note that the empty string "" is
+considered a substring of every string.)
+
+    Note: You will need to make sure that you do not output the same substring twice. For
+instance, if the user types in "abbab", you might accidentally output the String "ab" twice,
+since it occurs in two places in this String.
+
+    Here is typical output:
+
+    ```
+    Type in a string: what
+    Substrings of length 0
+    []
+    Substrings of length 1
+    [w]
+    [h]
+    [a]
+    [t]
+    Substrings of length 2
+    [wh]
+    [ha]
+    [at]
+    Substrings of length 3
+    [wha]
+    [hat]
+    Substrings of length 4
+    [what]
+    ```
+
 7. In this exercise, you will write a program (called Prog7) that creates
 and outputs an SQL statement based on user input.
 
