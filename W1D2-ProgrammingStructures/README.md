@@ -37,7 +37,8 @@ since it occurs in two places in this String.
     Here is typical output:
 
     ```
-    Type in a string: what
+    >Type in a string: what
+
     Substrings of length 0
     []
     Substrings of length 1
