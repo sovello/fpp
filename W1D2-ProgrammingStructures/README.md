@@ -29,7 +29,8 @@ and outputs an SQL statement based on user input.
 
 The program prompts the user for the following pieces of information:
 
-```table name
+```
+table name
 number of column names
 column name (as many occurrences as there are column names)
 salary value
@@ -39,9 +40,11 @@ For this exercise, the table name will refer to an imaginary database table that
 customer information, including name, zip, salary, and other columns that you may
 invent. The SQL statement that your program will output will be of the form
 
-```SELECT <column names>
+```sql
+SELECT <column names>
 FROM <table name>
-WHERE salary > <salary value>```
+WHERE salary > <salary value>
+```
 
 For example, if the user types in these values:
 
