@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-09-15T07:56:24</date>
+  <millis>1505480184907</millis>
+  <sequence>0</sequence>
+  <logger>package.name</logger>
+  <level>WARNING</level>
+  <class>exceptions.ListOfNumbers</class>
+  <method>writeList</method>
+  <thread>1</thread>
+  <message>rangeCheck</message>
+</record>
+<record>
+  <date>2017-09-15T07:56:24</date>
+  <millis>1505480184962</millis>
+  <sequence>1</sequence>
+  <logger>package.name</logger>
+  <level>WARNING</level>
+  <class>exceptions.ListOfNumbers</class>
+  <method>writeList</method>
+  <thread>1</thread>
+  <message>get</message>
+</record>
+<record>
+  <date>2017-09-15T07:56:24</date>
+  <millis>1505480184964</millis>
+  <sequence>2</sequence>
+  <logger>package.name</logger>
+  <level>WARNING</level>
+  <class>exceptions.ListOfNumbers</class>
+  <method>writeList</method>
+  <thread>1</thread>
+  <message>writeList</message>
+</record>
+<record>
+  <date>2017-09-15T07:56:24</date>
+  <millis>1505480184965</millis>
+  <sequence>3</sequence>
+  <logger>package.name</logger>
+  <level>WARNING</level>
+  <class>exceptions.ListOfNumbers</class>
+  <method>writeList</method>
+  <thread>1</thread>
+  <message>main</message>
+</record>
+</log>
