@@ -42,21 +42,23 @@ all uppercase letters changed to lowercase and all lowercase letters changed to 
 
 
 6. *Star Problems:*
-    a. First do the algorithms on paper only, make sure that it works in your
-    mind! At least two `for` loops are needed, one nested inside the other.
-    Only after it works in your mind get it to work on the computer! Do Not use `printf` for this.
 
-    Prompt the user for a number, for the length on the bottom of a picture.
-    For example, say they input 6. The picture would look like :
+   a) First do the algorithms on paper only, make sure that it works in your
+   mind! At least two `for` loops are needed, one nested inside the other.
+   Only after it works in your mind get it to work on the computer! Do Not use `printf` for this.
 
-    	```
-        *
-	**
-	* *
-	*  *
-	*   *
-	******
-	```
+   Prompt the user for a number, for the length on the bottom of a picture.
+   For example, say they input 6. The picture would look like :
+   
+
+       ```
+       *
+       **
+       * *
+       *  *
+       *   *
+       ******
+       ```
 	
     b) same as above except the picture looks like :
 
