@@ -33,7 +33,7 @@ all uppercase letters changed to lowercase and all lowercase letters changed to 
 
     _Hint :  Look at the API documentation for the  Character  class to see which methods you can use._
 
-5. Only use the top three rows of _table 3-8_
+5. Only use the top three rows of _table 3-8_ (Will have to attach this table)
    Create a two dimensional table with  3  rows and  6  columns.
    Put the data from the top 3 rows of table 3-8 into your table.
 
