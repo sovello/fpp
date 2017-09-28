@@ -1,7 +1,7 @@
-### Instructions for Project One.
+## Fundamental Programming Structures
+---
 
-
-*Exercises by hand :*
+### Exercises by hand :*
 ---
 
 1. Consider the following if…then logic:
@@ -32,14 +32,14 @@ the rectangle, and store it in a variable `diag`.
 4. You are reviewing some old Java programs in your company's IT department and you
 read the following assignment statement in some abandoned code:
 
-```
-int a = (b = 5);
-```
+    ```java
+    int a = (b = 5);
+    ```
 
-    Is the statement legal (i.e. would it compile)? If so, what value is assigned to the variable `a`? Explain.
+    _Is the statement legal (i.e. would it compile)? If so, what value is assigned to the variable `a`? Explain._
 
 ### Lab  :
-===
+---
 
 1. Create a class `Prog2`. Inside its `main` method, create `float` variables to store each of the
 following numbers:    `1.27, 3.881, 9.6`
@@ -74,7 +74,7 @@ a comma-separated format. For example, if the input into the main method is
 
 
 ### Lab Level 3  :
-===
+---
 
 1. The records of a database table `Product` have been stored in text format using delimiters
 `“:”` and `“,”` in the following way: Different rows are separated by `:` and, within a
@@ -99,13 +99,13 @@ column is always `productId`.
     Simply copy this long string and paste it into your program.
 
 5. Write a program that asks the user to enter a String. The program then writes to console
-all substrings of this String . (By "substring", we mean any sequence of characters that
-occur consecutively and in the same order in the given String . Therefore, "erg" is a
-substring of "energy", but "gre" and "eng" are not. Note that the empty string "" is
+all substrings of this String . (By `"substring"`, we mean any sequence of characters that
+occur consecutively and in the same order in the given String . Therefore, _erg_ is a
+substring of _energy_, but _gre_ and _eng_ are not. Note that the empty string "" is
 considered a substring of every string.)
 
     Note: You will need to make sure that you do not output the same substring twice. For
-instance, if the user types in "abbab", you might accidentally output the String "ab" twice,
+instance, if the user types in _"abbab"_, you might accidentally output the String _"ab"_ twice,
 since it occurs in two places in this String.
 
     Here is typical output:
@@ -181,4 +181,4 @@ and outputs an SQL statement based on user input.
 
     *IMPORTANT:* The output of your program is simply the sql query – just a String –
     printed to the console window. You will not run your query against a real database in this
-    exercise. The exercise is simply to create an sql query (not to run it).  
+    exercise. The exercise is simply to create an sql query (not to run it). 
