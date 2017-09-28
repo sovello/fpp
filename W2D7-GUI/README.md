@@ -14,14 +14,14 @@ class defined in the lesson, but you need to define your own `TextHandler` class
 
 4. Write a MyMenuFrame class with these menu choices.
 
-    ----------------------------------------------------------
-    File                  Edit               Color
-    ----------------------------------------------------------
-    Quit                 Erase             Red
-    Green
-    Blue
-    Pink
-    Black
+    
+    |File   |Edit  |Color |
+    |-------|------|------|
+    |Quit   |Erase |Red	  |
+    |Green  |	   |	  |
+    |Blue   |	   |	  |
+    |Pink   |	   |	  |
+    |Black  |	   |	  |
 
     When the user selects Quit, stop the program.  When the user selects one of the colors, change
     the background of the frame (i.e., change the background color of the frame’s content pane)
