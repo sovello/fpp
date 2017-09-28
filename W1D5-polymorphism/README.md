@@ -1,5 +1,8 @@
 ### Classes and Polymorphism
 
+Rewrite a recent lab by using an `ArrayList` object to store and process objects.  
+Use the  `add`,  `size`,  and  `get`  methods.
+                    
 Lab  :
 
 1. Do prog5-1_department from Wiki
