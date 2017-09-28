@@ -61,12 +61,12 @@ all uppercase letters changed to lowercase and all lowercase letters changed to 
 	
     b) same as above except the picture looks like :
 
-       
-       *
-       **
-       * *
-       *  *
-       *   *
+
+            *
+       	   **
+       	  * *
+       	 *  *
+       	*   *
        ******
        
        
@@ -74,9 +74,9 @@ all uppercase letters changed to lowercase and all lowercase letters changed to 
     look like :
 
        
-       *
-       * *
-       *   *
+	  *
+       	 * *
+       	*   *
        *******
        
        
