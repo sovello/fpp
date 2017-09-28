@@ -10,6 +10,9 @@ then expect a huge backlog the next day to catch up with.
 So, each subdir to this project is a project that was given out
 in class. All the solutions are mine unless stated otherwise.
 
+Some documentation for the challenges are found in the Wiki pages.
+So, feel free to check too.
+
 Each Project will have a README that explains what is in
 and what the target of the assignment was.
 
