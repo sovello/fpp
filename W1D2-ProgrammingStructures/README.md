@@ -1,28 +1,98 @@
 ### Instructions for Project One.
 
-1. Create a Java method `static int min(int[] arrayOfInts)` that outputs
-the minimum of an array of ints. Create a main method that tests
-your method on the following input array
+
+*Exercises by hand :*
+---
+
+1. Consider the following if…then logic:
+    if(age > 65) socialSecurityStatus = "eligible";
+    else socialSecurityStatus = "ineligible";
+    Rewrite this (pseudo) code using the Java ternary operator.
+2.  Suppose a String s is initialized by
+    String s = "a friendly face";
+    a. Compute the value of the expression
+    s.charAt(2);
+    b. What is the value of
+    s.length()?
+    c. What is the value of
+    s.substring(2,9)?
+    s.substring(4)?
+
+3. Write a Java expression that computes each of the following:
+    a. Given the radius r of a circle, compute the area of the circle, and store it in a variable A.
+    b. Given the length len and width wid of a rectangle, compute the length of the diagonal of
+the rectangle, and store it in a variable diag.
+
+
+4. You are reviewing some old Java programs in your company's IT department and you
+read the following assignment statement in some abandoned code:
 
 ```
-[2, -21, 3, 45, 0, 12, 18, 6, 3, 1, 0, -22]
+int a = (b = 5);
 ```
 
-    Test your method and make sure it works!
+    Is the statement legal (i.e. would it compile)? If so, what value is assigned to the
+    variable a? Explain.
 
-2. Do the same as above but instead of the minimum find the average of
-the numbers in the array.  Test it.
-3. Write a program that reads a sentence and prints out the sentence with
-all uppercase letters changed to lowercase and all lowercase letters changed to uppercase.
+### Lab  :
+===
 
-    _Hint :  Look at the API documentation for the  Character  class to see which methods you can use._
+1. Create a class `Prog2`. Inside its main method, create float variables to store each of the
+following numbers:    `1.27, 3.881, 9.6`
 
-4. In `resources.zip`, there is table 3-8.  We will only use the top three rows.
-   Create a two dimensional table with  3  rows and  6  columns.
-   Put the data from the top 3 rows of table 3-8 into your table.
+    Output to the console the following two values:
 
-    * Print out the average of each row.
-    * Print out the average of each column.
+    a. the sum of the floats as an integer, obtained by casting the sum to type int
+    b. the sum of the floats as an integer, obtained by rounding the sum to the nearest
+integer, using the Math.round function
+
+
+2.  
+    a. Write a program (called Prog5) that asks the user to input a String. The output is the
+characters of this String in reverse order. (For example, if the input string is "Hello", the
+output string would be "olleH".) (Do not use arrays and do not create a new String
+object.)  (Definitely do for the midterm.)
+
+    b. Output the number of  ‘x’s  in the string from the user.
+For example if the user types in  “Exit  abc  exit”,
+then the output would be  “2  ‘x’ characters”
+
+3. Write a program (called Prog6) that accepts String arguments (stored in args) from the
+main method, removes all duplicates, and outputs these arguments (without duplicates) in
+a comma-separated format. For example, if the input into the main method is
+`["horse", "dog", "cat", "horse","dog"]` then the output would be `"horse","dog","cat"`
+
+    Typical output:
+
+    Original list: `[ horse dog cat horse dog horse cat horse ]`
+    List without duplicates: `[ horse dog cat ]`
+
+
+
+### Lab Level 3  :
+===
+
+1. The records of a database table Product have been stored in text format using delimiters
+`“:”` and `“,”` in the following way: Different rows are separated by “:” and, within a
+particular record, different column entries are separated by “,”. In each record, the first
+column is always productId.
+
+    Write a program (called `Prog4`) that will read such a text file and extract all the product
+    id’s that occur in the file. Your program should then output these values to the console in
+    the following form: (this is a typical example)
+
+    ```
+    134A
+    213A
+    911C
+    012E
+    662Z
+    ```
+
+    Since we have not yet discussed how to read a file in Java, a text file is provided for you
+    in this assignment named Data.txt.  The file is in our network folder. The records have
+    been stored as a long String in Data.txt, named records.
+    Simply copy this long string and paste it into your program.
 
 5. Write a program that asks the user to enter a String. The program then writes to console
 all substrings of this String . (By "substring", we mean any sequence of characters that
