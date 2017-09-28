@@ -5,23 +5,28 @@
 ---
 
 1. Consider the following if…then logic:
-    if(age > 65) socialSecurityStatus = "eligible";
-    else socialSecurityStatus = "ineligible";
+
+   ```java
+   if(age > 65) socialSecurityStatus = "eligible";
+   else socialSecurityStatus = "ineligible";
+   ```
+   
     Rewrite this (pseudo) code using the Java ternary operator.
+
 2.  Suppose a String s is initialized by
+
+    ```java
     String s = "a friendly face";
-    a. Compute the value of the expression
-    s.charAt(2);
-    b. What is the value of
-    s.length()?
-    c. What is the value of
-    s.substring(2,9)?
-    s.substring(4)?
+    ```
+
+    a. Compute the value of the expression `s.charAt(2);`
+    b. What is the value of `s.length()?`
+    c. What is the value of `s.substring(2,9)?` and `s.substring(4)?`
 
 3. Write a Java expression that computes each of the following:
-    a. Given the radius r of a circle, compute the area of the circle, and store it in a variable A.
-    b. Given the length len and width wid of a rectangle, compute the length of the diagonal of
-the rectangle, and store it in a variable diag.
+    a. Given the radius `r` of a circle, compute the area of the circle, and store it in a variable `A`.
+    b. Given the length `len` and width `wid` of a rectangle, compute the length of the diagonal of
+the rectangle, and store it in a variable `diag`.
 
 
 4. You are reviewing some old Java programs in your company's IT department and you
@@ -31,33 +36,32 @@ read the following assignment statement in some abandoned code:
 int a = (b = 5);
 ```
 
-    Is the statement legal (i.e. would it compile)? If so, what value is assigned to the
-    variable a? Explain.
+    Is the statement legal (i.e. would it compile)? If so, what value is assigned to the variable `a`? Explain.
 
 ### Lab  :
 ===
 
-1. Create a class `Prog2`. Inside its main method, create float variables to store each of the
+1. Create a class `Prog2`. Inside its `main` method, create `float` variables to store each of the
 following numbers:    `1.27, 3.881, 9.6`
 
     Output to the console the following two values:
 
-    a. the sum of the floats as an integer, obtained by casting the sum to type int
-    b. the sum of the floats as an integer, obtained by rounding the sum to the nearest
-integer, using the Math.round function
+    a. the sum of the `floats` as an integer, obtained by casting the sum to type `int`
+    b. the sum of the `floats` as an integer, obtained by rounding the sum to the nearest
+    integer, using the `Math.round` function
 
 
-2.  
+2.    
     a. Write a program (called Prog5) that asks the user to input a String. The output is the
-characters of this String in reverse order. (For example, if the input string is "Hello", the
-output string would be "olleH".) (Do not use arrays and do not create a new String
-object.)  (Definitely do for the midterm.)
+characters of this String in reverse order. (For example, if the input string is `"Hello"`, the
+output string would be `"olleH"`.) (Do not use arrays and do not create a new String
+object.)
 
-    b. Output the number of  ‘x’s  in the string from the user.
-For example if the user types in  “Exit  abc  exit”,
-then the output would be  “2  ‘x’ characters”
+    b. Output the number of  `x`s  in the string from the user.
+    For example if the user types in  _Exit  abc  exit_,
+    then the output would be  `2`  `x` characters”
 
-3. Write a program (called Prog6) that accepts String arguments (stored in args) from the
+3. Write a program (called `Prog6`) that accepts `String` arguments (stored in `args`) from the
 main method, removes all duplicates, and outputs these arguments (without duplicates) in
 a comma-separated format. For example, if the input into the main method is
 `["horse", "dog", "cat", "horse","dog"]` then the output would be `"horse","dog","cat"`
@@ -72,10 +76,10 @@ a comma-separated format. For example, if the input into the main method is
 ### Lab Level 3  :
 ===
 
-1. The records of a database table Product have been stored in text format using delimiters
-`“:”` and `“,”` in the following way: Different rows are separated by “:” and, within a
-particular record, different column entries are separated by “,”. In each record, the first
-column is always productId.
+1. The records of a database table `Product` have been stored in text format using delimiters
+`“:”` and `“,”` in the following way: Different rows are separated by `:` and, within a
+particular record, different column entries are separated by `,`. In each record, the first
+column is always `productId`.
 
     Write a program (called `Prog4`) that will read such a text file and extract all the product
     id’s that occur in the file. Your program should then output these values to the console in
@@ -90,8 +94,8 @@ column is always productId.
     ```
 
     Since we have not yet discussed how to read a file in Java, a text file is provided for you
-    in this assignment named Data.txt.  The file is in our network folder. The records have
-    been stored as a long String in Data.txt, named records.
+    in this assignment named `Data.txt`.  The file is in our network folder. The records have
+    been stored as a long `String` in `Data.txt`, named records.
     Simply copy this long string and paste it into your program.
 
 5. Write a program that asks the user to enter a String. The program then writes to console
