@@ -60,26 +60,26 @@ all uppercase letters changed to lowercase and all lowercase letters changed to 
       
 	
     b) same as above except the picture looks like :
-
-       ```
-            *
-       	   **
-       	  * *
-       	 *  *
-       	*   *
-       ******
-       ```
+	   <pre>
+	   *
+       	  **
+       	 * *
+       	*  *
+       *   *
+      ******
+       </pre>
+       
 
        
     c) For this part the bottom must be an ODD number!  If 7 was entered the picture would
     look like :
-
-       ```
-	  *
-       	 * *
-       	*   *
-       *******
-       ```
+       
+      <pre>
+        *
+       * *
+      *   *
+     *******
+      </pre>
        
 Lab Level 2 :
 ---
