@@ -8,13 +8,13 @@ Ignore the case of the letter.
     a. Append  “bye”  to the above.  Print it out.
     b. Make all lowercase letters uppercase, and uppercase letters lowercase.  Print the new string.
 
-        (For lowercase you can use something like
+        For lowercase you can use something like
 
 	```java
 	if  ((char1 >= ‘a’)  &&  (char1 <= ‘z’))
 	```
 	
-	Also check out the `Character` class!)
+	Also check out the `Character` class!
 
 3. Create a Java method `static int min(int[] arrayOfInts)` that outputs
 the minimum of an array of ints. Create a main method that tests
@@ -50,28 +50,27 @@ all uppercase letters changed to lowercase and all lowercase letters changed to 
    Prompt the user for a number, for the length on the bottom of a picture.
    For example, say they input 6. The picture would look like :
    
-
-       ```
+      
        *
        **
        * *
        *  *
        *   *
        ******
-       ```
+      
 	
     b) same as above except the picture looks like :
 
-       ```
+       
        *
        **
        * *
        *  *
        *   *
        ******
-       ```
        
-    c. For this part the bottom must be an ODD number!  If 7 was entered the picture would
+       
+    c) For this part the bottom must be an ODD number!  If 7 was entered the picture would
     look like :
 
        
