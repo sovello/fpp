@@ -5,9 +5,8 @@
 For this exercise, you will write your own exponential function.
 Use the fact that for any (real number) x and any natural number n > 0,
 
-```
-x<sup>n</sup> = x * x<sup>n-1</sup>
-```
+> x<sup>n</sup> = x * x<sup>n-1</sup>
+
 
 to write a recursive method
 
