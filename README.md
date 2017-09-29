@@ -19,4 +19,4 @@ and what the target of the assignment was.
 I may come back and make some modifications to the code, as my
 experience with Java grows!
 
-Comment as necessary!
+Should you find anything amiss, let me know!
