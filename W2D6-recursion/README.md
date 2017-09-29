@@ -25,3 +25,8 @@ following: In the main method, create an instance
 of Exponential, and, from this instance,
 call `power(2,10)`, and print the result to the console.
 
+Advanced:
+
+Implement the `remove0th()` method in the [RecursiveMerge.java](RecursiveMerge.java "Sample Code") class.
+
+_Note: the sample code may need some tweaking before it works._
